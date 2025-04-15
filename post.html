@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Things I Love</title>
+    <link rel="stylesheet" type="text/css" href= "../css/post.css">
+</head>
+<body>
+    <div class = "common header">Some Things I Love</div>
+    <nav>
+        <a href="index.html">Professional Page</a>
+        <a href="game.html">Game</a>
+    </nav>
+    <div class = "common mainbody">
+        <br>
+        <h2> Some of My Hobbies </h2>
+        <ul class = "centered-list">
+            <li>Playing Golf</li>
+            <li> Hosting parties like: </li>
+                <ol>
+                    <li> Scrapbook Club</li>
+                    <li> Birthdays </li>
+                    <li> Movie Mondays </li>
+                </ol>
+            <li> Going to the temple </li>
+            <li> Spending time outside </li>
+            <li> Collecting data</li>
+            <a href="#data">Jump to Data Section</a>
+        </ul>
+        <h2> My home </h2>
+        <img src = "assets/img/home.jpeg" alt = "A photo of my home at dusk">
+        <br>  
+        <h2> My sisters</h2>
+        <img src = "assets/img/girlsinscotland.jpeg" alt = "My sisters and I in Scotland">
+        <br>      <br>        <br>
+        <h2>I like cat videos.</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J---aiyznGQ" title="Funny Cat Video" frameborder="0" allowfullscreen></iframe>
+        <br> <br> <br>
+      </div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Data Visualization</title>
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #fafafa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .tableau-container {
+            margin: 40px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        h1 {
+            color: palevioletred;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="data" >Cat Data Visualization</h1>
+        
+        <!-- Embedded Cat Chart from Tableau Public -->
+        <div class="tableau-container">
+            <tableau-viz
+                id="catViz"
+                src="https://public.tableau.com/views/Catchart/Story1"
+                width="1200"
+                height="800"
+                toolbar="bottom"
+                hide-tabs
+            ></tableau-viz>
+        </div>
+
+        <p style="text-align: center; color: #666; margin-top: 20px;">
+            Interactive cat data analysis from Tableau Public
+        </p>
+    </div>
+</body>
+</html>
+
+    <div class = "common footer" > 2025 Ella Moore</div>
+</body>
+</html>
